@@ -1,0 +1,42 @@
+""""""""""""""""""""""""""""""
+" => Install Apps
+""""""""""""""""""""""""""""""
+1. Xcode
+2. WeChat
+3. Sougou
+4. Java - jre
+5. Java - jdk
+6. Sublime
+7. iTerm
+8. EverNote
+
+""""""""""""""""""""""""""""""
+" => Config Mac
+""""""""""""""""""""""""""""""
+1. Settings > keyboard > shortcuts > input sources
+2. change cursor size: Accessbiliy > Display
+
+""""""""""""""""""""""""""""""
+" => Config iTerm
+""""""""""""""""""""""""""""""
+1. Install Oh-my-zsh
+   Change .zshrc, ZSH_THEME="xcf"
+   put xcf.zsh-theme under ~/.oh-my-zsh/themes
+2. Config iTerm color scheme: https://github.com/mbadolato/iTerm2-Color-Schemes
+   go to preferences > Profiles > Colors > Color Presets > import > Argonaut
+3. Preferences > Keys > Hotkey
+
+""""""""""""""""""""""""""""""
+" => Config Vim
+""""""""""""""""""""""""""""""
+1. https://github.com/amix/vimrc
+2. add customize config my_configs.vim
+
+""""""""""""""""""""""""""""""
+" => Config Sublime
+""""""""""""""""""""""""""""""
+1. Remove right preview - Under the View menu there is an option to Show/Hide Minimap
+2. Use color scheme - Mariana
+3. Install Pretty Json Package
+   Install this packages via CMD + SHIFT + P > Install package > Search for Pretty JSON and install.
+   And then turn ugly json via CMD + CTRL + J
