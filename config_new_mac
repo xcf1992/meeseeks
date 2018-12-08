@@ -40,3 +40,13 @@
 3. Install Pretty Json Package
    Install this packages via CMD + SHIFT + P > Install package > Search for Pretty JSON and install.
    And then turn ugly json via CMD + CTRL + J
+
+""""""""""""""""""""""""""""""
+" => Config git
+""""""""""""""""""""""""""""""
+1. Brew install git
+2. setup account and email
+   git config --global user.email "chenfu.xie@hulu.com"
+   git config --global user.name "chenfu.xie"
+3. setup ssh key
+   https://help.github.com/articles/error-permission-denied-publickey/
