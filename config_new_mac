@@ -50,3 +50,4 @@
    git config --global user.name "chenfu.xie"
 3. setup ssh key
    https://help.github.com/articles/error-permission-denied-publickey/
+4. Add git commands shortcuts: put .gitconfig under $HOME
