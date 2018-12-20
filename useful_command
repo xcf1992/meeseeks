@@ -1,0 +1,4 @@
+""""""""""""""""""""""""""""""
+" Move a special type of files under a foler recursively
+""""""""""""""""""""""""""""""
+=> find ./ -type f -name "*.mp3" -print0 | xargs -0 -Imysongs mv -i mysongs ~/Downloads

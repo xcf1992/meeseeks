@@ -1,5 +1,5 @@
 """"""""""""""""""""""""""""""
-" => Install Apps
+" Install Apps
 """"""""""""""""""""""""""""""
 1. Xcode
 2. WeChat
@@ -11,13 +11,13 @@
 8. EverNote
 
 """"""""""""""""""""""""""""""
-" => Config Mac
+" Config Mac
 """"""""""""""""""""""""""""""
 1. Settings > keyboard > shortcuts > input sources
 2. change cursor size: Accessbiliy > Display
 
 """"""""""""""""""""""""""""""
-" => Config iTerm
+" Config iTerm
 """"""""""""""""""""""""""""""
 1. Install Oh-my-zsh
    Change .zshrc, ZSH_THEME="xcf"
@@ -27,13 +27,13 @@
 3. Preferences > Keys > Hotkey
 
 """"""""""""""""""""""""""""""
-" => Config Vim
+" Config Vim
 """"""""""""""""""""""""""""""
 1. https://github.com/amix/vimrc
 2. add customize config my_configs.vim
 
 """"""""""""""""""""""""""""""
-" => Config Sublime
+" Config Sublime
 """"""""""""""""""""""""""""""
 1. Remove right preview - Under the View menu there is an option to Show/Hide Minimap
 2. Use color scheme - Mariana
@@ -42,7 +42,7 @@
    And then turn ugly json via CMD + CTRL + J
 
 """"""""""""""""""""""""""""""
-" => Config git
+" Config git
 """"""""""""""""""""""""""""""
 1. Brew install git
 2. setup account and email
