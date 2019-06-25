@@ -51,3 +51,10 @@
 3. setup ssh key
    https://help.github.com/articles/error-permission-denied-publickey/
 4. Add git commands shortcuts: put .gitconfig under $HOME
+
+""""""""""""""""""""""""""""""
+" Config VSCode
+""""""""""""""""""""""""""""""
+1. install bracket pair colorizer 2
+2. install one dark scheme
+2. change settings of trailing spaces and auto save
