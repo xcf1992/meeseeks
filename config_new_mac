@@ -58,3 +58,9 @@
 1. install bracket pair colorizer 2
 2. install one dark scheme
 2. change settings of trailing spaces and auto save
+
+""""""""""""""""""""""""""""""
+" Config Golang
+""""""""""""""""""""""""""""""
+https://rominirani.com/setup-go-development-environment-with-visual-studio-code-7ea5d643a51a
+https://github.com/Microsoft/vscode-go
