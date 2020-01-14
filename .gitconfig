@@ -6,14 +6,19 @@
     ignorecase= false
     editor = vim
 [diff]
-    tool = diffmerge
-[difftool "diffmerge"]
-    cmd = diffmerge \"$LOCAL\" \"$REMOTE\"
+    tool = meld
+[difftool]
+    prompt = false
+[difftool "meld"]
+    trustExitCode = true
+    cmd = open -W -a Meld --args \"$LOCAL\" \"$REMOTE\"
 [merge]
-    tool = diffmerge
-[mergetool "diffmerge"]
-    cmd = "diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""
-    trustExitCode = false
+    tool = meld
+[mergetool]
+  prompt = false
+[mergetool "meld"]
+    trustExitCode = true
+    cmd = open -W -a Meld --args --auto-merge \"$LOCAL\" \"$BASE\" \"$REMOTE\" --output=\"$MERGED\"
 [color]
         ui = auto
 [color "branch"]
