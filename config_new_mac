@@ -49,6 +49,8 @@
 """"""""""""""""""""""""""""""
 " Config git
 """"""""""""""""""""""""""""""
+install meld from https://yousseb.github.io/meld/
+goto mac preference, change security and privacy to trust meld
 1. brew install git
 2. setup account and email
    git config --global user.email "chenfu.xie@hulu.com"
