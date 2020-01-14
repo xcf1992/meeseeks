@@ -1,9 +1,9 @@
 [user]
-    name = Chenfu Xie
-    email = chenfu.xie@hulu.com
+    email = chenfu.xie@bytedance.com
+    name = chenfu.xie
 [core]
-    whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
-    ignorecase=false
+    whitespace= fix,-indent-with-non-tab,trailing-space,cr-at-eol
+    ignorecase= false
     editor = vim
 [diff]
     tool = diffmerge
