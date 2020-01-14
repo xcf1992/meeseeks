@@ -6,9 +6,9 @@
 3. Sougou
 4. Java - jre
 5. Java - jdk
-6. Sublime
+6. VS Code
 7. iTerm
-8. EverNote
+8. OneNote
 
 """"""""""""""""""""""""""""""
 " Config Mac
@@ -19,18 +19,23 @@
 """"""""""""""""""""""""""""""
 " Config iTerm
 """"""""""""""""""""""""""""""
-1. Install Oh-my-zsh
+1. Install brew
+2. Install Git
+3. Install Oh-my-zsh
    Change .zshrc, ZSH_THEME="xcf"
    put xcf.zsh-theme under ~/.oh-my-zsh/themes
-2. Config iTerm color scheme: https://github.com/mbadolato/iTerm2-Color-Schemes
+4. Download iTerm color scheme: https://github.com/mbadolato/iTerm2-Color-Schemes
    go to preferences > Profiles > Colors > Color Presets > import > Argonaut
-3. Preferences > Keys > Hotkey
+5. Preferences > Keys > Hotkey
+6. set different color to cursor and cursor text
 
 """"""""""""""""""""""""""""""
 " Config Vim
 """"""""""""""""""""""""""""""
 1. https://github.com/amix/vimrc
-2. add customize config my_configs.vim
+2. add customize config my_configs.vim to ~/.vim_runtime/my_configs.vim
+3. change nerd tree file window position,
+   access the ~/.vim_runtime/vimrcs/plugins_config.vim file and change the NERDTree position in that file.
 
 """"""""""""""""""""""""""""""
 " Config Sublime
@@ -44,7 +49,7 @@
 """"""""""""""""""""""""""""""
 " Config git
 """"""""""""""""""""""""""""""
-1. Brew install git
+1. brew install git
 2. setup account and email
    git config --global user.email "chenfu.xie@hulu.com"
    git config --global user.name "chenfu.xie"
@@ -57,7 +62,8 @@
 """"""""""""""""""""""""""""""
 1. install bracket pair colorizer 2
 2. install one dark scheme
-2. change settings of trailing spaces and auto save
+3. install vscode-icons
+4. change settings of trailing spaces and auto save
 
 """"""""""""""""""""""""""""""
 " Config Golang
