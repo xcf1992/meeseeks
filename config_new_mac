@@ -28,14 +28,13 @@
    go to preferences > Profiles > Colors > Color Presets > import > Argonaut
 5. Preferences > Keys > Hotkey
 6. set different color to cursor and cursor text
-7. Killing a fly with a cannon:
-   Go to Preferences... > Profiles > Keys (not Preferences... > Keys)
-   Press Presets...
-   Select Natural Text Editing
-   Then, you can move a word backwards using Option ⌥ + ← and a word forwards using Option ⌥ + →, 
-   move to the start of the line using fn + ← and to the end of the line with fn + →. 
-   Also you can delete a word backwards using Option ⌥ + ⌫, 
-   delete the whole line using Command ⌘ + ⌫.
+7. With iTerm2 3.1.4, setup the following without adding individual key mappings.
+   Go to Preferences > Profiles > Keys
+   Left/Right ⌥ Key: Select Esc+
+   With a new Terminal session you are now able to use:
+   Option ⌥ + f to Get Forward
+   Option ⌥ + b to Get Forward
+   Option ⌥ + Delete ⌫ to Delete Word
 """"""""""""""""""""""""""""""
 " Config Vim
 """"""""""""""""""""""""""""""
