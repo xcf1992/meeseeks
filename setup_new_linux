@@ -1,0 +1,15 @@
+""""""""""""""""""""""""""""""
+" Set default shell to zsh
+""""""""""""""""""""""""""""""
+I found this on superuser forum
+
+Open /etc/passwd:
+
+sudo vi /etc/passwd
+Find the line with your username:
+
+username:x:1634231:100:Your Name:/home/username:/bin/bash
+and replace bash with zsh:
+
+username:x:1634231:100:Your Name:/home/username:/bin/zsh
+Log out and log in back for the changes to take effect.
