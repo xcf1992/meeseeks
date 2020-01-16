@@ -35,6 +35,23 @@
    Option ⌥ + f to Get Forward
    Option ⌥ + b to Get Forward
    Option ⌥ + Delete ⌫ to Delete Word
+
+""""""""""""""""""""""""""""""
+" Config tmux
+""""""""""""""""""""""""""""""
+https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/
+
+1. resizing panes using mouse
+   One option for resizing panes is to use the mouse. To do this, add these lines to your .tmux.conf:
+   set -g mode-mouse on
+   set -g mouse-resize-pane on
+   If you are on a Mac and the above doesn't work, use this instead (source):
+   set-option -g mouse on
+   Once this mode is on, simply click and drag on pane dividers to resize them.
+
+   set -g mouse on #for newer versions
+2. https://github.com/gpakosz/.tmux
+
 """"""""""""""""""""""""""""""
 " Config Vim
 """"""""""""""""""""""""""""""
