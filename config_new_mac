@@ -97,6 +97,11 @@ https://rominirani.com/setup-go-development-environment-with-visual-studio-code-
 https://github.com/Microsoft/vscode-go
 
 """"""""""""""""""""""""""""""
-" Config python versions
+" Config python
 """"""""""""""""""""""""""""""
-https://realpython.com/intro-to-pyenv/
+python multiple version: https://realpython.com/intro-to-pyenv/
+https://github.com/pyenv/pyenv/issues/849, pyenv init, and add the eval to the end of zsh file
+
+install python virtualenvwrapper, https://virtualenvwrapper.readthedocs.io/en/latest/
+
+install ipython, https://ipython.org/
