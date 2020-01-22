@@ -17,18 +17,33 @@
 2. change cursor size: Accessbiliy > Display
 
 """"""""""""""""""""""""""""""
+" Config zsh
+""""""""""""""""""""""""""""""
+1. set zsh as default
+   Open /etc/passwd:
+
+   sudo vi /etc/passwd
+   Find the line with your username:
+
+   username:x:1634231:100:Your Name:/home/username:/bin/bash
+   and replace bash with zsh:
+
+   username:x:1634231:100:Your Name:/home/username:/bin/zsh
+   Log out and log in back for the changes to take effect.
+2. Install Oh-my-zsh
+   Change .zshrc, ZSH_THEME="xcf"
+   put xcf.zsh-theme under ~/.oh-my-zsh/themes
+
+""""""""""""""""""""""""""""""
 " Config iTerm
 """"""""""""""""""""""""""""""
 1. Install brew
 2. Install Git
-3. Install Oh-my-zsh
-   Change .zshrc, ZSH_THEME="xcf"
-   put xcf.zsh-theme under ~/.oh-my-zsh/themes
-4. Download iTerm color scheme: https://github.com/mbadolato/iTerm2-Color-Schemes
+3. Download iTerm color scheme: https://github.com/mbadolato/iTerm2-Color-Schemes
    go to preferences > Profiles > Colors > Color Presets > import > Argonaut
-5. Preferences > Keys > Hotkey
-6. set different color to cursor and cursor text
-7. With iTerm2 3.1.4, setup the following without adding individual key mappings.
+4. Preferences > Keys > Hotkey
+5. set different color to cursor and cursor text
+6. With iTerm2 3.1.4, setup the following without adding individual key mappings.
    Go to Preferences > Profiles > Keys
    Left/Right ⌥ Key: Select Esc+
    With a new Terminal session you are now able to use:
