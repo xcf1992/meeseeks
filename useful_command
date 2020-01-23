@@ -2,3 +2,40 @@
 " Move a special type of files under a foler recursively
 """"""""""""""""""""""""""""""
 => find ./ -type f -name "*.mp3" -print0 | xargs -0 -Imysongs mv -i mysongs ~/Downloads
+
+""""""""""""""""""""""""""""""
+" Viewing text files on Linux - cat, head, tail, more and less
+""""""""""""""""""""""""""""""
+https://2buntu.com/articles/1491/viewing-text-files-on-linux-cat-head-tail-more-and-less/
+
+head <filename>- View the top few lines of a file
+  -<lines> - Displays the first <lines> number of lines of a file
+  
+tail <filename> - View the bottom few lines of a file
+  -<lines> - Displays the last <lines> number of lines of a file
+  -f : continually watch for any additions at the end of the file
+  -f --pid=PID - continually display any additions until process with PID terminates
+  -f -s <sec> - continually display any additions at intervals of <sec> seconds
+  
+cat <filename> - View the whole file
+  -n : line-numbered output
+  -b : line-numbered output with no line numbers for blank lines
+  -s : multiple blank lines compressed into a single blank line
+  
+more <filename> - View the whole file, one screenful at a time.
+  spacebar : View next screen
+  b : View previous screen
+  d : View next half-screen
+  Enter : View next line
+  = : Current line number in file
+  v : Start vi editor on current line
+  /string : Search for string in file
+    n : Go to next occurrence of string
+    ' : Go to first occurrence of string
+    
+less <filename>- 
+Same as more, but with many more features. Displays the portion of the file without waiting for the entire file to be read by it. Accepts most of the more commands.
+  Pg Dn : View next screen
+  Pg Up : View previous screen
+  Up arrow : View previus line
+  Down arrow : View next line
