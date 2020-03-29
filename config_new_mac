@@ -1,4 +1,11 @@
 """"""""""""""""""""""""""""""
+" Bash
+""""""""""""""""""""""""""""""
+1. add .inputrc, add 
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+to remember last command starts with prefix
+""""""""""""""""""""""""""""""
 " Install Apps
 """"""""""""""""""""""""""""""
 1. Xcode
