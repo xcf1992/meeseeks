@@ -1,24 +1,30 @@
 [user]
     email = chenfu.xie@bytedance.com
     name = chenfu.xie
+[credential "https://code.byted.org"]
+    username = chenfu.xie
+[url "ssh://chenfu.xie@git.byted.org:29418"]
+    insteadOf = https://git.byted.org
+[url "git@code.byted.org:"]
+    insteadOf = https://code.byted.org/
+[url "gitr:"]
+    insteadOf = git://git.byted.org/
+[url "git@git.byted.org:"]
+    insteadOf = https://git.byted.org/
 [core]
     whitespace= fix,-indent-with-non-tab,trailing-space,cr-at-eol
     ignorecase= false
     editor = vim
-[diff]
-    tool = meld
-[difftool]
-    prompt = false
-[difftool "meld"]
-    trustExitCode = true
-    cmd = open -W -a Meld --args \"$LOCAL\" \"$REMOTE\"
+
 [merge]
-    tool = meld
-[mergetool]
-  prompt = false
-[mergetool "meld"]
-    trustExitCode = true
-    cmd = open -W -a Meld --args --auto-merge \"$LOCAL\" \"$BASE\" \"$REMOTE\" --output=\"$MERGED\"
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+
 [color]
         ui = auto
 [color "branch"]
