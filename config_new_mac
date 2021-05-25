@@ -81,6 +81,7 @@ https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/
 2. add customize config my_configs.vim to ~/.vim_runtime/my_configs.vim
 3. change nerd tree file window position,
    access the ~/.vim_runtime/vimrcs/plugins_config.vim file and change the NERDTree position in that file.
+4. add ``` let g:snipMate = { 'snippet_version' : 1 }``` to .vimrc
 
 """"""""""""""""""""""""""""""
 " Config Sublime
